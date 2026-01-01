@@ -1,0 +1,889 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PS Power-Seitenleisten\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-04 19:47+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.3; wp-6.1.1\n"
+"X-Domain: ps-sidebars"
+
+#: inc/class-ps-sidebars-editor.php:530
+#, php-format
+msgid "%1$s Archive"
+msgstr ""
+
+#: inc/class-ps-sidebars-export.php:733
+#, php-format
+msgid "%d benutzerdefinierte Seitenleiste importiert!"
+msgid_plural "%d benutzerdefinierte Seitenleisten importiert!"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-ps-sidebars-editor.php:475 inc/class-ps-sidebars-editor.php:486
+#: inc/class-ps-sidebars-editor.php:558 inc/class-ps-sidebars-editor.php:614
+#, php-format
+msgid "%s Archiv"
+msgstr ""
+
+#: inc/class-ps-sidebars-editor.php:478 inc/class-ps-sidebars-editor.php:484
+#: inc/class-ps-sidebars-editor.php:560
+#, php-format
+msgid "%s Archive"
+msgstr ""
+
+#: views/metabox.php:85
+#, php-format
+msgid ""
+"%s Archive\n"
+"\t"
+msgstr ""
+
+#: views/bulk-edit.php:35
+msgid "&mdash; Keine Änderung &mdash;"
+msgstr ""
+
+#: inc/class-ps-sidebars-visibility.php:336
+#: inc/class-ps-sidebars-visibility.php:356
+msgid "(inactive)"
+msgstr ""
+
+#: views/import.php:223
+msgid "(Theme Seitenleiste)"
+msgstr ""
+
+#: inc/class-ps-sidebars.php:130
+#, php-format
+msgid "<a href=\"%1$s\">Widgets Bildschirm</a> erstellen und bearbeiten!"
+msgstr ""
+
+#: inc/class-ps-sidebars-visibility.php:210
+msgid "<b>Hide</b> widget if:"
+msgstr ""
+
+#: inc/class-ps-sidebars-visibility.php:209
+msgid "<b>Show</b> widget if:"
+msgstr ""
+
+#: views/widgets-delete.php:16 views/widgets-location.php:284
+msgid "Abbrechen"
+msgstr ""
+
+#: views/widgets-editor.php:63
+msgid "Abrechen"
+msgstr ""
+
+#: views/widgets.php:51
+msgid ""
+"Aktiviere diese Option, um die Seitenleiste durch eine Deiner "
+"benutzerdefinierten Seitenleisten zu ersetzen."
+msgstr ""
+
+#: views/metabox.php:117
+#, php-format
+msgid ""
+"Alle Seitenleisten wurden gesperrt, Du kannst sie nicht ersetzen. Gehe zur "
+"<a href=\"%s\">Widget Seite</a> um eine Seitenleiste zu entsperren."
+msgstr ""
+
+#: views/widgets-location.php:38
+#, php-format
+msgid "Als <strong>%1$s</strong> für ausgewählte %2$s"
+msgstr ""
+
+#: inc/class-ps-sidebars-visibility.php:269
+msgid "Always"
+msgstr ""
+
+#: inc/class-ps-sidebars-visibility.php:294
+#: inc/class-ps-sidebars-visibility.php:299
+#: inc/class-ps-sidebars-visibility.php:308
+#: inc/class-ps-sidebars-visibility.php:327
+#: inc/class-ps-sidebars-visibility.php:347
+#: inc/class-ps-sidebars-visibility.php:366
+#: inc/class-ps-sidebars-visibility.php:385
+#: inc/class-ps-sidebars-visibility.php:469
+msgid "AND"
+msgstr ""
+
+#: views/import.php:347
+msgid "Archiv der Kategorie"
+msgstr ""
+
+#: inc/class-ps-sidebars-visibility.php:164
+msgid "Archive: Day"
+msgstr ""
+
+#: inc/class-ps-sidebars-visibility.php:165
+msgid "Archive: Month"
+msgstr ""
+
+#: inc/class-ps-sidebars-visibility.php:166
+msgid "Archive: Year"
+msgstr ""
+
+#: inc/class-ps-sidebars-visibility.php:160
+msgid "Archives"
+msgstr ""
+
+#: views/widgets-location.php:156 views/widgets-location.php:167
+msgid "Archivtypen"
+msgstr ""
+
+#: views/import.php:255 views/import.php:258
+msgid "Austauschbare Seitenleisten"
+msgstr ""
+
+#: views/widgets-location.php:158
+msgid "Autoren"
+msgstr ""
+
+#: views/widgets-location.php:189
+msgid "Autoren Archive"
+msgstr ""
+
+#: views/import.php:370
+msgid "Autorenarchiv"
+msgstr ""
+
+#: views/widgets.php:78
+msgid "Bearbeite diese Seitenleiste."
+msgstr ""
+
+#: views/widgets.php:80
+msgid "Bearbeiten"
+msgstr ""
+
+#: views/widgets.php:40
+msgid "Bearbeiten [Sidebar]"
+msgstr ""
+
+#: inc/class-ps-sidebars-editor.php:526 views/metabox.php:80
+msgid "Beitragsindex"
+msgstr ""
+
+#: views/import.php:306
+msgid "Beitragstyp Archive"
+msgstr ""
+
+#: views/widgets-location.php:122
+msgid "Beitragstypen"
+msgstr ""
+
+#: inc/class-ps-sidebars-editor.php:457
+msgid "Beliebiges Autorenarchiv"
+msgstr ""
+
+#: views/widgets.php:47
+msgid "Benutzerdefinierte Seitenleisten"
+msgstr ""
+
+#: inc/class-ps-sidebars-editor.php:1396
+msgid "Benutzerdefinierte Taxonomien in der Seitenleiste zulassen:"
+msgstr ""
+
+#: views/import.php:144 views/widgets-editor.php:20
+msgid "Beschreibung"
+msgstr ""
+
+#: views/widgets-editor.php:21
+msgid "Beschreibung der Seitenleiste hier..."
+msgstr ""
+
+#: views/import.php:155
+msgid "Bestehende Seitenleiste wird ersetzt!"
+msgstr ""
+
+#: views/widgets-delete.php:11
+msgid ""
+"Bitte bestätige, dass Du die <strong class=\"name\"></strong>Seitenleiste "
+"löschen möchtest<strong class=\"name\"></strong>."
+msgstr ""
+
+#: views/metabox.php:79
+msgid "Blog-Seite"
+msgstr ""
+
+#: views/col-sidebars.php:47
+msgid "Blogseite"
+msgstr ""
+
+#: inc/class-ps-sidebars-cloning.php:206
+msgid "Clone"
+msgstr ""
+
+#: inc/class-ps-sidebars-visibility.php:218
+msgid "Date"
+msgstr ""
+
+#: views/import.php:75
+msgid "Dateiname"
+msgstr ""
+
+#: views/widgets.php:49
+msgid "Daten aus ClassicPress konnten nicht geladen werden ..."
+msgstr ""
+
+#: inc/class-ps-sidebars-editor.php:458 views/import.php:369
+msgid "Datumsarchiv"
+msgstr ""
+
+#: views/widgets.php:45
+msgid "Definiere wo diese Seitenleiste angezeigt werden soll."
+msgstr ""
+
+#: inc/class-ps-sidebars-editor.php:249
+msgid "Der Name der Seitenleiste darf nicht leer sein"
+msgstr ""
+
+#: views/widgets-editor.php:17
+msgid "Der Name sollte eindeutig sein."
+msgstr ""
+
+#: views/widgets-location.php:76
+msgid "der Seitenleisten-Metabox ein."
+msgstr ""
+
+#: inc/class-ps-sidebars-editor.php:1356
+msgid ""
+"Die benutzerdefinierte Konfiguration der Seitenleisten ist zulässig für:"
+msgstr ""
+
+#: inc/class-ps-sidebars-editor.php:270 inc/class-ps-sidebars-editor.php:379
+msgid "Die Seitenleiste existiert nicht"
+msgstr ""
+
+#: inc/class-ps-sidebars-editor.php:322 inc/class-ps-sidebars-editor.php:397
+msgid "Die Seitenleiste wurde nicht gefunden"
+msgstr ""
+
+#: views/widgets-location.php:210
+msgid ""
+"Diese Einstellungen laden keine Seitenleisten zum Entladen, sondern blenden "
+"nur Widgets ein oder aus, NICHT SIDEBARS, abhängig von der Bildschirmbreite "
+"des Mediums."
+msgstr ""
+
+#: views/widgets-location.php:154
+msgid ""
+"Diese Ersetzungen werden auf Beiträge und Seiten vom Typ Archiv angewendet."
+msgstr ""
+
+#: views/widgets-location.php:102
+msgid ""
+"Diese Ersetzungen werden auf jeden einzelnen Beitrag angewendet, der einem "
+"bestimmten Beitragstyp oder einer bestimmten Kategorie entspricht."
+msgstr ""
+
+#: views/widgets-location.php:244
+msgid "Diese Ersetzungen werden auf Plugins von Drittanbietern angewendet."
+msgstr ""
+
+#: views/widgets.php:106
+msgid "Diese Seitenleiste ist auf allen Seiten immer gleich"
+msgstr ""
+
+#: views/widgets.php:50 views/widgets.php:105
+msgid "Diese Seitenleiste kann auf bestimmten Seiten ersetzt werden"
+msgstr ""
+
+#: inc/class-ps-sidebars-editor.php:146 inc/class-ps-sidebars-editor.php:161
+msgid "Du hast hierfür keine Erlaubnis"
+msgstr ""
+
+#: inc/class-ps-sidebars-export.php:102
+msgid "Du hast keine Berechtigung dafür"
+msgstr ""
+
+#: inc/class-ps-sidebars-export.php:289 inc/class-ps-sidebars-export.php:389
+msgid "Du hast keine Berechtigung zum Exportieren von Seitenleisten."
+msgstr ""
+
+#: inc/class-ps-sidebars-export.php:474
+msgid "Du hast keine Berechtigung zum Importieren von Seitenleisten."
+msgstr ""
+
+#: inc/class-ps-sidebars-editor.php:231 inc/class-ps-sidebars-editor.php:371
+#: inc/class-ps-sidebars-editor.php:675
+msgid "Du hast keine Berechtigung, diesen Vorgang auszuführen."
+msgstr ""
+
+#: inc/class-ps-sidebars-editor.php:879
+#, php-format
+msgid "Einstellungen für <strong>%1$s</strong> aktualisiert."
+msgstr ""
+
+#: inc/class-ps-sidebars-editor.php:1385
+msgid "Erlaube dem Autor des Eintrags, die Seitenleisten zu ändern"
+msgstr ""
+
+#: inc/class-ps-sidebars-editor.php:1379
+msgid "Erlaubt, Seitenleisten zu ersetzen:"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Ermöglicht das Erstellen von Widget-Bereichen und benutzerdefinierten "
+"Seitenleisten. Ersetze ganze Seitenleisten oder einzelne Widgets für "
+"bestimmte Beiträge und Seiten."
+msgstr ""
+
+#: views/import.php:382
+msgid ""
+"Ersetze die aktuelle Plugin-Konfiguration durch die importierte "
+"Konfiguration."
+msgstr ""
+
+#: views/widgets-location.php:30
+msgid "Ersetzt durch eine andere Seitenleiste:"
+msgstr ""
+
+#: inc/class-ps-sidebars.php:988
+msgid "Erstelle eine benutzerdefinierte Seitenleiste, um loszulegen."
+msgstr ""
+
+#: views/widgets.php:43
+msgid "Erstelle Seitenleiste"
+msgstr ""
+
+#: views/widgets-editor.php:60
+msgid "Erweitert - Bearbeite den benutzerdefinierten Wrapper-Code"
+msgstr ""
+
+#: views/widgets-location.php:88
+msgid ""
+"Es gibt keine austauschbaren Seitenleisten. Bitte erlaube mindestens eine "
+"als austauschbar."
+msgstr ""
+
+#: views/widgets-location.php:223
+msgid "Es gibt keine definierten Regeln."
+msgstr ""
+
+#: inc/class-ps-sidebars-export.php:403 inc/class-ps-sidebars-export.php:445
+msgid "Es wurde keine Datei hochgeladen"
+msgstr ""
+
+#: inc/class-ps-sidebars-export.php:416
+msgid "Etwas ist schief gelaufen"
+msgstr ""
+
+#: views/widgets-export.php:10 views/widgets-export.php:28
+msgid "Exportieren"
+msgstr ""
+
+#: views/import.php:79
+msgid "Exportiert am"
+msgstr ""
+
+#: views/widgets.php:52
+msgid "Filter..."
+msgstr ""
+
+#: inc/class-ps-sidebars-visibility.php:214
+msgid "Filters"
+msgstr ""
+
+#: inc/class-ps-sidebars-visibility.php:250
+msgid "For Post Type"
+msgstr ""
+
+#: inc/class-ps-sidebars-visibility.php:156
+msgid "Front Page"
+msgstr ""
+
+#: views/widgets-location.php:99
+msgid "Für alle Einzeleinträge, die ausgewählten Kriterien entsprechen"
+msgstr ""
+
+#: views/widgets-location.php:151
+msgid "Für Archive"
+msgstr ""
+
+#: views/widgets-location.php:207
+msgid "Für Bildschirmgrößen"
+msgstr ""
+
+#: views/metabox.php:43
+#, php-format
+msgid "Gehe zur <a href=\"%1$s\">Widgets Seite</a>"
+msgstr ""
+
+#: inc/class-ps-sidebars-visibility.php:223
+msgid "Guests"
+msgstr ""
+
+#: views/import.php:368
+msgid "Hauptblogseite"
+msgstr ""
+
+#: inc/class-ps-sidebars.php:1001
+msgid "Hide"
+msgstr ""
+
+#: views/metabox.php:90
+msgid ""
+"Hier kannst Du die Standard-Seitenleisten ersetzen. Wähle einfach die "
+"Seitenleiste aus, die Du für diesen Beitrag anzeigen möchtest!"
+msgstr ""
+
+#: views/import.php:145
+msgid "Hinweis"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://github.com/Power-Source"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://github.com/Power-Source/piestingtal-source-project/ps-seitenleisten/"
+msgstr ""
+
+#: inc/class-ps-sidebars-export.php:410
+msgid "Importdatei ist zu groß"
+msgstr ""
+
+#: views/import.php:136
+msgid "Importiere auch alle Widgets der ausgewählten Seitenleisten."
+msgstr ""
+
+#: views/import.php:68 views/widgets-export.php:34
+msgid "Importieren"
+msgstr ""
+
+#: inc/class-ps-sidebars-export.php:525
+msgid "Importieren. Bitte versuche es erneut."
+msgstr ""
+
+#: inc/class-ps-sidebars-export.php:796
+#, php-format
+msgid "Importiertes %d-Widget!"
+msgid_plural "Importierte %d Widgets!"
+msgstr[0] ""
+msgstr[1] ""
+
+#: views/widgets-delete.php:17
+msgid "Ja, lösche sie"
+msgstr ""
+
+#: views/widgets-location.php:157 views/widgets-location.php:178
+msgid "Kategorie Archive"
+msgstr ""
+
+#: views/widgets-location.php:110
+msgid "Kategorien"
+msgstr ""
+
+#: views/metabox.php:49
+msgid "Klicke auf \"Sidebar Position\""
+msgstr ""
+
+#: views/widgets-location.php:51
+#, php-format
+msgid "Klicke hier, um verfügbare %1$s auszuwählen"
+msgstr ""
+
+#: views/widgets-location.php:98 views/widgets-location.php:150
+#: views/widgets-location.php:206 views/widgets-location.php:240
+msgid "Klicken zum Umschalten"
+msgstr ""
+
+#: views/import.php:251
+msgid "Konfiguration"
+msgstr ""
+
+#: inc/integrations/class-ps-sidebars-integration-polylang.php:67
+#: inc/integrations/class-ps-sidebars-integration-wml.php:53
+#: inc/integrations/class-ps-sidebars-integration-wpml.php:50
+msgid "Language"
+msgstr ""
+
+#: views/widgets.php:115
+msgid "Lasse diese Seitenleiste ersetzen"
+msgstr ""
+
+#: views/widgets.php:69
+msgid "Lösche diese Seitenleiste."
+msgstr ""
+
+#: views/widgets.php:44
+msgid "Lösche Seitenleiste"
+msgstr ""
+
+#: views/import.php:131
+msgid "Markiere die Seitenleisten, die Du importieren möchtest."
+msgstr ""
+
+#: inc/class-ps-sidebars.php:995
+msgid "max"
+msgstr ""
+
+#: views/widgets-location.php:214
+msgctxt "Medienbildschirmbreitentabelle"
+msgid "Bildschirm"
+msgstr ""
+
+#: views/widgets-location.php:216
+msgctxt "Medienbildschirmbreitentabelle"
+msgid "Bildschirmbreite"
+msgstr ""
+
+#: views/widgets-location.php:215
+msgctxt "Medienbildschirmbreitentabelle"
+msgid "Zeige"
+msgstr ""
+
+#: inc/class-ps-sidebars-visibility.php:233
+msgid "Membership"
+msgstr ""
+
+#: inc/class-ps-sidebars-visibility.php:239
+msgid "Membership2"
+msgstr ""
+
+#: inc/class-ps-sidebars.php:996
+msgid "min"
+msgstr ""
+
+#: views/import.php:277
+msgid "Nach Beitragstyp"
+msgstr ""
+
+#: views/widgets-editor.php:43
+msgid "Nach dem Titel"
+msgstr ""
+
+#: views/widgets-editor.php:53
+msgid "Nach dem Widget"
+msgstr ""
+
+#: views/import.php:327
+msgid "Nach Kategorie"
+msgstr ""
+
+#: inc/class-ps-sidebars-editor.php:1407
+msgid ""
+"Nachdem Du eine benutzerdefinierte Taxonomie aktiviert hast, musst Du diesen "
+"Bildschirm neu laden, um ihn in der Seitenleiste auswählen zu können."
+msgstr ""
+
+#: views/import.php:143 views/widgets-editor.php:15
+msgid "Name"
+msgstr ""
+
+#: views/widgets-editor.php:16
+msgid "Name der Seitenleiste hier..."
+msgstr ""
+
+#: views/widgets.php:41
+msgid "Neue benutzerdefinierte Seitenleiste"
+msgstr ""
+
+#: views/widgets-location.php:226
+msgid "Neue Regel hinzufügen"
+msgstr ""
+
+#: inc/class-ps-sidebars-editor.php:303
+#, php-format
+msgid "Neue Seitenleiste <strong>%1$s</strong> erstellt"
+msgstr ""
+
+#: views/widgets.php:21
+msgid "Neue Seitenleiste erstellen"
+msgstr ""
+
+#: views/import.php:153
+msgid "Neue Seitenleiste wird erstellt"
+msgstr ""
+
+#: inc/class-ps-sidebars-editor.php:456
+msgid "Nicht gefunden (404)"
+msgstr ""
+
+#: views/col-sidebars.php:32
+#, php-format
+msgid "Nicht verfügbar für %s"
+msgstr ""
+
+#: inc/class-ps-sidebars-visibility.php:162
+msgid "Not Found (404)"
+msgstr ""
+
+#: inc/class-ps-sidebars-visibility.php:386
+msgid "On any page of these types"
+msgstr ""
+
+#: inc/class-ps-sidebars-visibility.php:367
+msgid "On these special pages"
+msgstr ""
+
+#: inc/class-ps-sidebars-visibility.php:404
+#, php-format
+msgid "Only for specific %s"
+msgstr ""
+
+#: inc/class-ps-sidebars-visibility.php:405
+#, php-format
+msgid "Only these %s:"
+msgstr ""
+
+#: views/widgets-export.php:23
+msgid "Optionale Beschreibung für die Exportdatei:"
+msgstr ""
+
+#: views/import.php:101
+msgid "Plugin Version"
+msgstr ""
+
+#: inc/class-ps-sidebars-export.php:747
+msgid "Plugin-Optionen wurden importiert!"
+msgstr ""
+
+#: views/widgets-location.php:241
+msgid "Plugins von Drittanbietern"
+msgstr ""
+
+#: inc/integrations/class-ps-sidebars-integration-polylang.php:66
+msgid "Polylang"
+msgstr ""
+
+#: inc/class-ps-sidebars-visibility.php:157
+msgid "Post Index"
+msgstr ""
+
+#: inc/class-ps-sidebars-visibility.php:163
+msgid "Preview"
+msgstr ""
+
+#. Name of the plugin
+msgid "PS Power-Seitenleisten"
+msgstr ""
+
+#: views/bulk-edit.php:23 views/import.php:129
+msgid "PS Seitenleisten"
+msgstr ""
+
+#: inc/class-ps-sidebars-visibility.php:228
+msgid "Roles"
+msgstr ""
+
+#: inc/class-ps-sidebars-visibility.php:161
+msgid "Search Results"
+msgstr ""
+
+#: inc/class-ps-sidebars-editor.php:311
+#, php-format
+msgid "Seitenleiste <strong>%1$s</strong> aktualisiert"
+msgstr ""
+
+#: inc/class-ps-sidebars-editor.php:387
+#, php-format
+msgid "Seitenleiste <strong>%1$s</strong> gelöscht"
+msgstr ""
+
+#: views/widgets-editor.php:64
+msgid "Seitenleiste erstellen"
+msgstr ""
+
+#: inc/class-ps-sidebars-editor.php:934 views/widgets.php:17
+msgid "Seitenleisten"
+msgstr ""
+
+#: inc/class-ps-sidebars-export.php:66 views/widgets.php:46
+msgid "Seitenleisten importieren/exportieren"
+msgstr ""
+
+#: views/widgets.php:89
+msgid "Seitenleisten Position"
+msgstr ""
+
+#: views/widgets-export.php:16
+msgid "Seitenleisten und die aktuelle Seitenleistenkonfiguration enthält."
+msgstr ""
+
+#: inc/class-ps-sidebars.php:1002
+msgid "Show"
+msgstr ""
+
+#: inc/class-ps-sidebars-explain.php:225
+msgid "Sidebar Debug"
+msgstr ""
+
+#: inc/class-ps-sidebars-visibility.php:158
+msgid "Single Page"
+msgstr ""
+
+#: views/metabox.php:35
+#, php-format
+msgid "So änderst Du die Seitenleiste für %s"
+msgstr ""
+
+#: inc/class-ps-sidebars-editor.php:1171
+msgctxt "Spaltenname in der Eintragsliste."
+msgid "Benutzerdefinierte Seitenleisten"
+msgstr ""
+
+#: inc/class-ps-sidebars-visibility.php:245
+msgid "Special Pages"
+msgstr ""
+
+#: views/import.php:365
+msgid "Spezielle Seiten"
+msgstr ""
+
+#: inc/class-ps-sidebars-editor.php:454 views/col-sidebars.php:45
+#: views/metabox.php:76
+msgid "Startseite"
+msgstr ""
+
+#: inc/class-ps-sidebars-editor.php:455
+msgid "Suchergebnisse"
+msgstr ""
+
+#: views/import.php:372
+msgid "Suchergebnisseite"
+msgstr ""
+
+#: inc/class-ps-sidebars.php:970
+msgid "Support"
+msgstr ""
+
+#: views/import.php:371
+msgid "Tag-Archive"
+msgstr ""
+
+#: inc/class-ps-sidebars-visibility.php:252
+msgid "Taxonomy"
+msgstr ""
+
+#: views/import.php:106
+msgid "Theme"
+msgstr ""
+
+#: views/widgets.php:48
+msgid "Theme Seitenleisten"
+msgstr ""
+
+#: inc/class-ps-sidebars-explain.php:236
+msgid "Turn off Custom Sidebars explain mode."
+msgstr ""
+
+#: inc/class-ps-sidebars-explain.php:229
+msgid "Turn on Custom Sidebars explain mode."
+msgstr ""
+
+#: inc/class-ps-sidebars-export.php:439
+msgid "Unerwartetes Importformat"
+msgstr ""
+
+#: views/import.php:103
+msgid "Unknown"
+msgstr ""
+
+#: inc/class-ps-sidebars-visibility.php:348
+msgid "User has Membership"
+msgstr ""
+
+#: inc/class-ps-sidebars-visibility.php:328
+msgid "User has Membership Level"
+msgstr ""
+
+#: inc/class-ps-sidebars-visibility.php:309
+msgid "User has role"
+msgstr ""
+
+#: inc/class-ps-sidebars-visibility.php:300
+msgid "User is logged-in (Member)"
+msgstr ""
+
+#: inc/class-ps-sidebars-visibility.php:295
+msgid "User is not logged-in (Guest)"
+msgstr ""
+
+#: inc/class-ps-sidebars-visibility.php:200
+msgid "Visibility"
+msgstr ""
+
+#: views/widgets-editor.php:39
+msgid "Vor dem Titel"
+msgstr ""
+
+#: views/widgets-editor.php:49
+msgid "Vor dem Widget"
+msgstr ""
+
+#: views/widgets-export.php:43
+msgid "Vorschau"
+msgstr ""
+
+#: views/widgets-editor.php:27
+msgid "Vorsicht:"
+msgstr ""
+
+#: views/widgets-editor.php:28
+msgid ""
+"Webseite beeinträchtigen. Lasse diese Felder leer, um das Design der "
+"Seitenleisten des Themas zu verwenden."
+msgstr ""
+
+#: inc/class-ps-sidebars.php:962 views/import.php:146
+msgid "Widgets"
+msgstr ""
+
+#. Author of the plugin
+msgid "PSOURCE"
+msgstr ""
+
+#: views/widgets.php:87
+msgid "Wo möchten Sie die Seitenleiste anzeigen?"
+msgstr ""
+
+#: views/col-sidebars.php:49 views/metabox.php:83
+msgid "WooCommerce Shop"
+msgstr ""
+
+#: views/import.php:96
+msgid "ClassicPress Version"
+msgstr ""
+
+#: views/import.php:85
+msgid "ClassicPress-Einstellungen"
+msgstr ""
+
+#: inc/integrations/class-ps-sidebars-integration-wml.php:52
+msgid "WP Multilang"
+msgstr ""
+
+#: inc/integrations/class-ps-sidebars-integration-wpml.php:49
+msgid "WPML"
+msgstr ""
+
+#: views/metabox.php:58
+#, php-format
+msgid "Wähle \"%s\""
+msgstr ""
+
+#: views/widgets-export.php:38
+msgid "Wähle eine zu importierende Datei aus"
+msgstr ""
+
+#: inc/class-ps-sidebars.php:148
+#, php-format
+msgid "zu deaktivieren und das %1$s-Plugin zu verwenden !"
+msgstr ""
+
+#: views/widgets-location.php:285 views/widgets.php:42
+msgid "Änderungen speichern"
+msgstr ""
+
+#: views/metabox.php:53
+msgid "Öffne die Registerkarte \"Archivtypen\""
+msgstr ""
