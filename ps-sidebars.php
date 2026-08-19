@@ -1,9 +1,9 @@
 <?php
 /**
  * Plugin Name: PS Power-Seitenleisten
- * Plugin URI:  https://power-source.github.io/benutzerdefinierte-seitenleisten/
+ * Plugin URI:  https://psource.eimen.net/wiki/ps-power-seitenleisten/
  * Description: Ermöglicht das Erstellen von Widget-Bereichen und benutzerdefinierten Seitenleisten. Ersetze ganze Seitenleisten oder einzelne Widgets für bestimmte Beiträge und Seiten.
- * Version:     1.0.0
+ * Version:     1.0.1
  * Author:      PSOURCE
  * Author URI:  https://psource.eimen.net/
  * Textdomain:  ps-sidebars
@@ -35,7 +35,7 @@ add_action( 'admin_notices', function() {
                     'activate-plugin_' . $plugin_file
                 );
                 echo sprintf(
-                    __( 'Aktiviere den <a href="%s">PS Update Manager</a> für automatische Updates von GitHub.', 'psource-chat' ),
+                    __( 'Aktiviere den <a href="%s">PS Update Manager</a> für automatische Updates Deiner PSOURCE Plugins.', 'psource-chat' ),
                     esc_url( $activate_url )
                 );
             } else {
