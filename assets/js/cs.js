@@ -1,27 +1,3 @@
-/*! Custom Sidebars - v3.2.3
- * https://premium.wpmudev.org/project/ps-sidebars-pro/
- * Copyright (c) 2019; * Licensed GPLv2+ */
-/*global window:false */
-/*global console:false */
-/*global document:false */
-/*global wp:false */
-/*global wpmUi:false */
-/*global csSidebars:false */
-/*global csSidebarsData:false */
-
-/**
- * CsSidebar class
- *
- * This adds new functionality to each sidebar.
- *
- * Note: Before the first CsSidebar object is created the class csSidebars below
- * must be initialized!
- */
-
-
-/*
- * http://blog.stevenlevithan.com/archives/faster-trim-javascript
- */
 function trim( str ) {
 	str = str.replace(/^\s\s*/, '');
 	for (var i = str.length - 1; i >= 0; i--) {
@@ -245,14 +221,14 @@ window.csSidebars = null;
 			title
 				.clone()
 				.prependTo( col1 )
-				.click( toggle_sort )
+				.on('click', toggle_sort )
 				.find('.cs-title-val')
 				.text( csSidebarsData.benutzerdefinierte_seitenleisten );
 
 			title
 				.clone()
 				.prependTo( col2 )
-				.click( toggle_sort )
+				.on('click', toggle_sort )
 				.find( '.cs-title-val' )
 				.text( csSidebarsData.theme_sidebars );
 
@@ -323,7 +299,7 @@ window.csSidebars = null;
 				data = {};
 
 			// Button: Add new sidebar.
-			btn_create.click(function() {
+			btn_create.on('click', function() {
 				data.id = '';
 				data.title = csSidebarsData.title_new;
 				data.button = csSidebarsData.btn_new;
@@ -334,13 +310,13 @@ window.csSidebars = null;
 			});
 
 			// Button: Export sidebars.
-			btn_export.click( csSidebars.showExport );
+			btn_export.on('click', csSidebars.showExport );
 
 			// Add Sidebar filter.
 			txt_filter
 				.appendTo( topbar )
 				.attr( 'placeholder', csSidebarsData.filter )
-				.keyup( csSidebars.filter_sidebars )
+				.on('keyup', csSidebars.filter_sidebars)
 				.on( 'search', csSidebars.filter_sidebars );
 
 			return csSidebars;
@@ -670,7 +646,7 @@ window.csSidebars = null;
 			 */
 			popup.$().on( 'keypress', '#csb-description', function(e) {
 				if ( 13 === e.keyCode ) {
-					popup.$('.btn-save').click();
+					popup.$('.btn-save').trigger('click');
 				}
 			});
 
@@ -1575,7 +1551,7 @@ window.csSidebars = null;
 				var template = wp.template('ps-sidebars-new');
 				$(".sidebars-column-1 .inner").before( template() );
 				$(".ps-sidebars-add-new").on( "click", function() {
-					$( "button.btn-create-sidebar" ).click();
+					$("button.btn-create-sidebar").trigger("click");
 				});
 			}
 		}

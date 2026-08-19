@@ -532,7 +532,7 @@ class TheLib_Ui extends TheLib {
 					esc_attr( $class ),
 					$text,
 					esc_attr( $id ),
-					__( 'Dismiss this notice.' )
+					__( 'Diesen Hinweis schließen.' )
 				);
 			}
 		}

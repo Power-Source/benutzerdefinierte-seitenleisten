@@ -1,14 +1,3 @@
-/*! WPMU Dev code library - v3.1.1
- * http://premium.wpmudev.org/
- * Copyright (c) 2019; * Licensed GPLv2+ */
-/*!
- * UI Pattern: Vertical navigation.
- * Version: 1.0.0
- */
-/*global jQuery:false */
-/*global window:false */
-/*global document:false */
-
 jQuery(function() {
 	var referer = '';
 
@@ -146,7 +135,7 @@ jQuery(function() {
 		// Timeout of 50ms: Screen needs to refresh once before this works.
 		window.setTimeout( function() {
 			var ctx_active = jQuery( '.active', context );
-			jQuery( 'h2,h3', ctx_active ).click();
+			jQuery('h2,h3', ctx_active).trigger('click');
 		}, 50 );
 	}
 

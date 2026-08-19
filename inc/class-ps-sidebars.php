@@ -101,18 +101,7 @@ class BenutzerdefinierteSeitenleisten {
 	 * @since 3.0.5
 	 */
 	public function admin_init() {
-		$plugin_title = 'Custom Sidebars';
-		
-		/**
-		 * ID of the WP-Pointer used to introduce the plugin upon activation
-		 *
-		 * ========== Pointer ==========
-		 *  Internal ID:  wpmudcs1 [WPMUDev BenutzerdefinierteSeitenleisten 1]
-		 *  Point at:     #menu-appearance (Appearance menu item)
-		 *  Title:        Custom Sidebars
-		 *  Description:  Create and edit custom sidebars in your widget screen!
-		 * -------------------------------------------------------------------------
-		 */
+		$plugin_title = 'PS Power-Seitenleisten';
 
 		$user_id = get_current_user_id();
 		$dismissed_wp_pointers = get_user_meta( $user_id, 'dismissed_wp_pointers', true );

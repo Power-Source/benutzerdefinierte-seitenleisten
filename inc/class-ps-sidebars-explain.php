@@ -222,18 +222,18 @@ class BenutzerdefinierteSeitenleistenExplain extends BenutzerdefinierteSeitenlei
 		}
 		$args = array(
 			'id'    => 'cs-explain',
-			'title' => __( 'Sidebar Debug', 'ps-sidebars' ),
+			'title' => __( 'Power-Seitenleisten Debug', 'ps-sidebars' ),
 			'href'  => add_query_arg( 'cs-explain', 'on' ),
 			'parent' => 'top-secondary',
 			'meta' => array(
-				'title' => __( 'Turn on Custom Sidebars explain mode.', 'ps-sidebars' ),
+				'title' => __( 'Schalte Power-Seitenleisten Erklärungsmodus ein.', 'ps-sidebars' ),
 				'class' => 'debug-is-off',
 			),
 		);
 		if ( $this->debug ) {
 			$args['href'] = add_query_arg( 'cs-explain', 'off' );
 			$args['meta'] = array(
-				'title' => __( 'Turn off Custom Sidebars explain mode.', 'ps-sidebars' ),
+				'title' => __( 'Schalte Power-Seitenleisten Erklärungsmodus aus.', 'ps-sidebars' ),
 				'class' => 'cs-explain-on',
 			);
 		}

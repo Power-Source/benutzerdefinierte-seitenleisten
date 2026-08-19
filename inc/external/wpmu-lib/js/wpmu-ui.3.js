@@ -1,24 +1,3 @@
-/*! WPMU Dev code library - v3.1.1
- * http://premium.wpmudev.org/
- * Copyright (c) 2019; * Licensed GPLv2+ */
-/*!
- * WPMU Dev UI library
- * (Philipp Stracker for WPMU Dev)
- *
- * This library provides a Javascript API via the global wpmUi object.
- *
- * @version  1.0.0
- * @author   Philipp Stracker for WPMU Dev
- * @link     http://appendto.com/2010/10/how-good-c-habits-can-encourage-bad-javascript-habits-part-1/
- * @requires jQuery
- */
-/*global jQuery:false */
-/*global window:false */
-/*global document:false */
-/*global XMLHttpRequest:false */
-/*global console:false */
-/*global wp:false */
-
 (function( wpmUi ) {
 
 	/**
@@ -305,7 +284,7 @@
 				.text( JSON.stringify( args['details'] ) );
 			jQuery( '<i class="dashicons dashicons-editor-help light"></i>' )
 				.prependTo( msg_box.find( 'p:first' ) )
-				.click( toggle_debug )
+				.on('click', toggle_debug )
 				.after( ' ' );
 		}
 
@@ -319,7 +298,7 @@
 				btn_close = jQuery( '<a href="#" class="notice-dismiss"></a>' );
 				btn_close.prependTo( msg_box );
 
-				btn_close.click( hide_message );
+				btn_close.on('click', hide_message );
 			}
 
 			if ( args['insert_after'] && parent.find( args['insert_after'] ).length ) {
@@ -415,7 +394,7 @@
 				.html( args['buttons'][ind] )
 				.addClass( primary_button ? 'button-primary' : 'button-secondary' )
 				.data( 'key', ind )
-				.click( handle_close )
+				.on('click', handle_close )
 				.prependTo( el_btn );
 			primary_button = false;
 		}

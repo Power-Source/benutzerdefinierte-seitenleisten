@@ -1,12 +1,3 @@
-/*! Custom Sidebars - v3.2.3
- * https://premium.wpmudev.org/project/ps-sidebars-pro/
- * Copyright (c) 2019; * Licensed GPLv2+ */
-/*global jQuery:false */
-/*global window:false */
-/*global document:false */
-/*global wp:false */
-/*global wpmUi:false */
-
 jQuery(function init_cloning() {
 	var $doc = jQuery( document ),
 		$all = jQuery( '#widgets-right' ),
@@ -118,8 +109,8 @@ jQuery(function init_cloning() {
 		}
 
 		$spinner.insertBefore( $target ).css({ 'float': 'left' });
-		$btn.insertBefore( $target ).click( clone_widget );
-		$btn_save.click( prepare_update_group );
+		$btn.insertBefore( $target ).on('click', clone_widget );
+		$btn_save.on('click', prepare_update_group );
 
 		$widget.data( '_csb_cloning', true );
 	};
@@ -226,8 +217,9 @@ jQuery(function init_cloning() {
 				$titles.addClass( 'csb-group group-active' )
 					.prepend( '<i class="dashicons dashicons-admin-links btn-clone-group"></i> ' );
 				$titles.find( '.btn-clone-group' )
-					.hover( mark_group, unmark_group )
-					.click( toggle_group );
+				.on('mouseenter', mark_group)
+				.on('mouseleave', unmark_group)
+				.on('click', toggle_group);
 			}
 		});
 	};

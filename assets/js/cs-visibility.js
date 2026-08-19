@@ -1,12 +1,3 @@
-/*! Custom Sidebars - v3.2.3
- * https://premium.wpmudev.org/project/ps-sidebars-pro/
- * Copyright (c) 2019; * Licensed GPLv2+ */
-/*global jQuery:false */
-/*global window:false */
-/*global document:false */
-/*global wp:false */
-/*global wpmUi:false */
-
 jQuery(function init_visibility() {
 	var $doc = jQuery( document );
 
@@ -205,7 +196,7 @@ jQuery(function init_visibility() {
 		}
 
 		$spinner.insertBefore( $target ).css({ 'float': 'left' });
-		$btn.insertBefore( $target ).click( toggle_section );
+		$btn.insertBefore( $target ).on( 'click', toggle_section );
 		$widget.on( 'click', '.toggle-action b', toggle_action );
 		$widget.on( 'csb:update', update_display );
 		$widget.on( 'click', '.clear-filter', remove_filter );
