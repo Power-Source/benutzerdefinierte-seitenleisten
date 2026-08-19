@@ -3229,10 +3229,10 @@
 				success: function( resp, status, xhr ) {
 					okay = true;
 					response = resp;
-					if ( 'json' === type ) {
+					if ('json' === type) {
 						try {
-							response = jQuery.parseJSON( resp );
-						} catch(ignore) {
+							response = JSON.parse(resp);
+						} catch (ignore) {
 							response = { 'status': 'ERR', 'data': resp };
 						}
 					}
